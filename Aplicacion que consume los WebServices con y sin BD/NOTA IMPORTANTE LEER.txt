@@ -1,0 +1,5 @@
+Esta aplicacion consume todos los webServices,
+los con y sin bases de datos 
+podra fijarse que estan añadidos 4 ServiceReference
+al proyecto cada uno se utiliza en cada boton.
+Las capturas de ejecusion se muestran por separado en el informe en pdf  

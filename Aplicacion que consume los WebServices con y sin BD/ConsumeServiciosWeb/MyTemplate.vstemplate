@@ -1,0 +1,74 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ConsumeServiciosWeb</Name>
+    <Description>&lt;No hay ninguna descripción disponible&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ConsumeServiciosWeb</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ConsumeServiciosWeb.csproj" File="ConsumeServiciosWeb.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <Folder Name="DataSources" TargetFolderName="DataSources">
+          <ProjectItem ReplaceParameters="true" TargetFileName="System.Data.DataSet.datasource">System.Data.DataSet.datasource</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Service References" TargetFolderName="Service References">
+        <Folder Name="ServiceReference1" TargetFolderName="ServiceReference1">
+          <ProjectItem ReplaceParameters="false" TargetFileName="configuration.svcinfo">configuration.svcinfo</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="configuration91.svcinfo">configuration91.svcinfo</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Reference.svcmap">Reference.svcmap</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Reference.cs">Reference.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WindowsFormsApplication2.ServiceReference1.DevuelveNombreResponse.datasource">WindowsFormsApplication2.ServiceReference1.DevuelveNombreResponse.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WindowsFormsApplication2.ServiceReference1.HelloWorldResponse.datasource">WindowsFormsApplication2.ServiceReference1.HelloWorldResponse.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="WebService.disco">WebService.disco</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WebService.wsdl">WebService.wsdl</ProjectItem>
+        </Folder>
+        <Folder Name="ServiceReference2" TargetFolderName="ServiceReference2">
+          <ProjectItem ReplaceParameters="false" TargetFileName="configuration.svcinfo">configuration.svcinfo</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="configuration91.svcinfo">configuration91.svcinfo</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Nombre.wsdl">Nombre.wsdl</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Nombre.xsd">Nombre.xsd</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Reference.svcmap">Reference.svcmap</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Reference.cs">Reference.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WindowsFormsApplication2.ServiceReference2.DevuelveNombreResponse.datasource">WindowsFormsApplication2.ServiceReference2.DevuelveNombreResponse.datasource</ProjectItem>
+        </Folder>
+        <Folder Name="ServiceReference3" TargetFolderName="ServiceReference3">
+          <ProjectItem ReplaceParameters="false" TargetFileName="configuration.svcinfo">configuration.svcinfo</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="configuration91.svcinfo">configuration91.svcinfo</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Reference.svcmap">Reference.svcmap</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Reference.cs">Reference.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="WebService.disco">WebService.disco</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WebService.wsdl">WebService.wsdl</ProjectItem>
+        </Folder>
+        <Folder Name="ServiceReference4" TargetFolderName="ServiceReference4">
+          <ProjectItem ReplaceParameters="false" TargetFileName="configuration.svcinfo">configuration.svcinfo</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="configuration91.svcinfo">configuration91.svcinfo</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Reference.svcmap">Reference.svcmap</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Reference.cs">Reference.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WindowsFormsApplication2.ServiceReference4.helloResponse.datasource">WindowsFormsApplication2.ServiceReference4.helloResponse.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WindowsFormsApplication2.ServiceReference4.retornaUsuarioResponse.datasource">WindowsFormsApplication2.ServiceReference4.retornaUsuarioResponse.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="webServiceJAVA.wsdl">webServiceJAVA.wsdl</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="webServiceJAVA.xsd">webServiceJAVA.xsd</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
