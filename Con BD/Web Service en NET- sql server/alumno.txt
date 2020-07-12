@@ -1,0 +1,2 @@
+id,nombre,ci
+1,Erick Aguilar Lozano BD ,6893912
